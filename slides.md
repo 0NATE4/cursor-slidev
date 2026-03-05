@@ -1,7 +1,7 @@
 ---
-title: Cursor Workshop Brisbane
+title: Cursor Workshop · Brisbane
 info: |
-  Brisbane Cursor Workshop · The Precinct, Fortitude Valley
+  Live workshop run sheet · The Precinct, Fortitude Valley
 class: bg-[#0F0F0F] text-white
 mdc: true
 theme: slidev-theme-cursor
@@ -10,9 +10,9 @@ layout: cover
 <div class="h-full flex flex-col items-center justify-center gap-7 text-center">
   <img src="./cursor-community-avatar.png" alt="Cursor Brisbane" class="w-70 max-w-[360px] rounded-lg border border-[#252525] shadow-[0_8px_24px_rgba(0,0,0,0.6)]" />
   <div class="space-y-2">
-    <p class="uppercase tracking-[0.25em] text-xs text-white/60">Cursor Community</p>
+    <p class="uppercase tracking-[0.25em] text-xs text-white/60">Cursor Community · Live Session</p>
     <h1 class="text-5xl md:text-7xl font-black leading-tight tracking-tight">Cursor Workshop<br />Brisbane</h1>
-    <p class="text-lg text-white/80">Hands-on build sprint for devs, founders, and builders</p>
+    <p class="text-lg text-white/80">Build sprint run-of-show</p>
     <p class="text-sm text-white/65">The Precinct · Fortitude Valley, QLD</p>
   </div>
 </div>
@@ -22,14 +22,14 @@ layout: default
 class: bg-[#0F0F0F] text-white
 ---
 
-# What this workshop is
+# Tonight's outcomes
 
 <div class="mt-6 rounded-lg border border-[#252525] bg-[#171717] p-6 leading-relaxed">
-  Brisbane's first Cursor workshop: quick practical tips, then a guided sprint where everyone builds a small web app from scratch.
+  By 7:00 pm, each table should have at least one working demo shipped locally (or deployed if ready).
 </div>
 
 <div class="mt-5 rounded-lg border border-[#252525] bg-[#171717] p-6 leading-relaxed">
-  Built for mixed experience levels. Basic JavaScript/web familiarity helps, but the flow is designed to be beginner-friendly and practical.
+  Focus is execution, not theory: short context, then hands-on build time with active room support.
 </div>
 
 ---
@@ -37,25 +37,24 @@ layout: default
 class: bg-[#0F0F0F] text-white
 ---
 
-# Event essentials
+# Working agreements for the room
 
 <div class="grid grid-cols-2 gap-5 mt-6">
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Presented by</p>
-    <p class="text-2xl font-semibold">Cursor Community</p>
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Build-first</p>
+    <p class="text-2xl font-semibold">Ship over perfection</p>
   </div>
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Hosted by</p>
-    <p class="text-2xl font-semibold">Nathan Chung</p>
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Ask early</p>
+    <p class="text-2xl font-semibold">Unblock in under 5 min</p>
   </div>
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Status</p>
-    <p class="text-2xl font-semibold">Event Full</p>
-    <p class="text-sm text-white/70 mt-1">Join waitlist for open spots</p>
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Pair up when stuck</p>
+    <p class="text-base font-medium leading-snug">If blocked twice, pair for 10 minutes and keep momentum.</p>
   </div>
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Location</p>
-    <p class="text-base font-medium leading-snug">The Precinct, Level 3<br />315 Brunswick St, Fortitude Valley QLD</p>
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Demo mindset</p>
+    <p class="text-base font-medium leading-snug">Done and explainable beats ambitious and half-finished.</p>
   </div>
 </div>
 
@@ -64,17 +63,17 @@ layout: default
 class: bg-[#0F0F0F] text-white
 ---
 
-# Who this is for
+# Setup check (2 minutes)
 
-<div class="grid grid-cols-1 gap-4 mt-6">
+<div class="grid grid-cols-1 gap-4 mt-6 text-lg">
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    You already use Cursor and want stronger workflows.
+    Cursor installed and signed in.
   </div>
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    You are new to Cursor and want a fast, practical intro.
+    Node.js installed and available in terminal (`node -v`).
   </div>
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    You want to meet local builders and ship something in one evening.
+    Starter project or blank repo ready to go.
   </div>
 </div>
 
@@ -83,26 +82,27 @@ layout: default
 class: bg-[#0F0F0F] text-white
 ---
 
-# What to bring and setup
+# Build sprint constraints
 
 <div class="grid grid-cols-2 gap-5 mt-6">
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-3">Required</p>
-    <ul class="space-y-2 text-white/90">
-      <li>• Laptop + charger</li>
-      <li>• Cursor installed + signed in</li>
-      <li>• Node.js installed</li>
-      <li>• Modern browser (Chrome or similar)</li>
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-3">Must have</p>
+    <ul class="list-disc pl-5 space-y-2 text-white/90">
+      <li>One clear user flow</li>
+      <li>One successful end-to-end path</li>
+      <li>Readable code you can explain</li>
+      <li>A 60-second demo script</li>
     </ul>
   </div>
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
-    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-3">Optional</p>
-    <ul class="space-y-2 text-white/90">
-      <li>• Git installed</li>
-      <li>• GitHub + Vercel for optional deploy</li>
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-3">Avoid</p>
+    <ul class="list-disc pl-5 space-y-2 text-white/90">
+      <li>Auth systems unless already prepared</li>
+      <li>Multi-service architecture</li>
+      <li>Scope changes after 6:20 pm</li>
     </ul>
     <p class="text-sm text-white/70 mt-4">
-      Setup help available before workshop.
+      Keep scope small and demoable.
     </p>
   </div>
 </div>
@@ -140,25 +140,25 @@ layout: default
 class: bg-[#0F0F0F] text-white
 ---
 
-# Build sprint focus
+# During the sprint
 
 <div class="grid grid-cols-2 gap-5 mt-6">
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-6">
-    <h3 class="text-xl font-semibold mb-3">Sprint goal</h3>
+    <h3 class="text-xl font-semibold mb-3">Facilitator focus</h3>
     <p class="text-white/85 leading-relaxed">
-      Build and demo a small web app from scratch in one guided session.
+      Keep participants shipping. Prioritize unblocking, scope control, and demo readiness.
     </p>
   </div>
   <div class="rounded-lg border border-[#252525] bg-[#171717] p-6">
-    <h3 class="text-xl font-semibold mb-3">Support</h3>
+    <h3 class="text-xl font-semibold mb-3">Participant focus</h3>
     <p class="text-white/85 leading-relaxed">
-      Practical guidance during the sprint, with room support across all skill levels.
+      Build one thing that works well. Document prompts and decisions for your demo.
     </p>
   </div>
 </div>
 
 <div class="mt-5 rounded-lg border border-[#252525] bg-[#171717] p-5 text-white/85">
-  Sponsored by <strong class="text-white">Responsible AI Australia</strong> (safe and responsible use of AI coding tools).
+  If blocked for more than 10 minutes: simplify scope, hardcode inputs, or swap to a narrower user story.
 </div>
 
 ---
@@ -168,10 +168,7 @@ class: bg-[#0F0F0F] text-white text-center
 
 <div class="space-y-5">
   <img src="./cursor-community-avatar.png" alt="Cursor Brisbane" class="mx-auto w-52 rounded-lg border border-[#252525]" />
-  <h2 class="text-4xl font-black tracking-tight">Join the waitlist</h2>
-  <p class="text-white/80">Registration is currently full.</p>
-  <a class="text-white underline decoration-white/40 underline-offset-4 hover:decoration-white" href="https://luma.com/4y41mt4x">
-    luma.com/4y41mt4x
-  </a>
-  <p class="text-sm text-white/60">Cursor Community · Brisbane</p>
+  <h2 class="text-4xl font-black tracking-tight">Demo time</h2>
+  <p class="text-white/80">60 seconds each: problem → build → what changed with Cursor.</p>
+  <p class="text-sm text-white/60">Cursor Community · Brisbane · Thanks for building with us</p>
 </div>
