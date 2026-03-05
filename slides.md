@@ -1,128 +1,177 @@
 ---
-title: Cursor Meetup Bangalore
+title: Cursor Workshop Brisbane
 info: |
-  22 May 2025 · 7 PM – 9 PM · Bengaluru, Karnataka
-class: bg-[#0F0F0F] text-white text-center
+  Brisbane Cursor Workshop · The Precinct, Fortitude Valley
+class: bg-[#0F0F0F] text-white
 mdc: true
 theme: slidev-theme-cursor
 layout: cover
 ---
-<div class="flex flex-col items-center gap-4">
-  <h2 class="text-2xl font-bold">Access the Slides</h2>
-  <img src="./assets/slides_qr.png" alt="Cursor Logo" class="mx-auto" />
-  <a href="https://sanjeed5.github.io/cursor-slidev/" class="text-lg hover:underline">https://sanjeed5.github.io/cursor-slidev/</a>
+<div class="h-full flex flex-col items-center justify-center gap-7 text-center">
+  <img src="./cursor-community-avatar.png" alt="Cursor Brisbane" class="w-70 max-w-[360px] rounded-lg border border-[#252525] shadow-[0_8px_24px_rgba(0,0,0,0.6)]" />
+  <div class="space-y-2">
+    <p class="uppercase tracking-[0.25em] text-xs text-white/60">Cursor Community</p>
+    <h1 class="text-5xl md:text-7xl font-black leading-tight tracking-tight">Cursor Workshop<br />Brisbane</h1>
+    <p class="text-lg text-white/80">Hands-on build sprint for devs, founders, and builders</p>
+    <p class="text-sm text-white/65">The Precinct · Fortitude Valley, QLD</p>
+  </div>
 </div>
 
 ---
-
-<GlowBackground>
-  <h1 class="text-6xl md:text-8xl font-bold tracking-tight text-white">Cursor Bangalore</h1>
-</GlowBackground>
-
+layout: default
+class: bg-[#0F0F0F] text-white
 ---
 
-# Community Map
+# What this workshop is
 
-<a href="https://lu.ma/cursorcommunity/map" target="_blank">
-  <img src="./assets/map.png" alt="Community Map" class="mx-auto my-auto" />
-</a>
+<div class="mt-6 rounded-lg border border-[#252525] bg-[#171717] p-6 leading-relaxed">
+  Brisbane's first Cursor workshop: quick practical tips, then a guided sprint where everyone builds a small web app from scratch.
+</div>
+
+<div class="mt-5 rounded-lg border border-[#252525] bg-[#171717] p-6 leading-relaxed">
+  Built for mixed experience levels. Basic JavaScript/web familiarity helps, but the flow is designed to be beginner-friendly and practical.
+</div>
 
 ---
+layout: default
+class: bg-[#0F0F0F] text-white
+---
 
-# Welcome
+# Event essentials
 
-- **Sanjeed** – Cursor Ambassador India, AI Consultant
-- Thanks to **Lightspeed India Partners** for the venue  
-- Thanks to **Utopia** for being our community partner
+<div class="grid grid-cols-2 gap-5 mt-6">
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Presented by</p>
+    <p class="text-2xl font-semibold">Cursor Community</p>
+  </div>
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Hosted by</p>
+    <p class="text-2xl font-semibold">Nathan Chung</p>
+  </div>
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Status</p>
+    <p class="text-2xl font-semibold">Event Full</p>
+    <p class="text-sm text-white/70 mt-1">Join waitlist for open spots</p>
+  </div>
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-2">Location</p>
+    <p class="text-base font-medium leading-snug">The Precinct, Level 3<br />315 Brunswick St, Fortitude Valley QLD</p>
+  </div>
+</div>
 
+---
+layout: default
+class: bg-[#0F0F0F] text-white
+---
+
+# Who this is for
+
+<div class="grid grid-cols-1 gap-4 mt-6">
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    You already use Cursor and want stronger workflows.
+  </div>
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    You are new to Cursor and want a fast, practical intro.
+  </div>
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    You want to meet local builders and ship something in one evening.
+  </div>
+</div>
+
+---
+layout: default
+class: bg-[#0F0F0F] text-white
+---
+
+# What to bring and setup
+
+<div class="grid grid-cols-2 gap-5 mt-6">
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-3">Required</p>
+    <ul class="space-y-2 text-white/90">
+      <li>• Laptop + charger</li>
+      <li>• Cursor installed + signed in</li>
+      <li>• Node.js installed</li>
+      <li>• Modern browser (Chrome or similar)</li>
+    </ul>
+  </div>
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-5">
+    <p class="text-xs uppercase tracking-[0.2em] text-white/60 mb-3">Optional</p>
+    <ul class="space-y-2 text-white/90">
+      <li>• Git installed</li>
+      <li>• GitHub + Vercel for optional deploy</li>
+    </ul>
+    <p class="text-sm text-white/70 mt-4">
+      Setup help available before workshop.
+    </p>
+  </div>
+</div>
+
+---
+layout: default
+class: bg-[#0F0F0F] text-white
 ---
 
 # Agenda
 
-1. Welcome & Introductions  
-2. Cursor **Power Users Tips & Workflows**  
-3. Special Guest Speaker – **Eric Zakariasson** (Cursor)  
-4. Networking & Community  
-
----
-
-# Speaker 1
-
-- **Anurag**: _Scaling a Portfolio of Products with Cursor_
-  - Indie Founder @productlogz, @quotesmatic_ai
-  - https://x.com/ak_8085
-
----
-
-# Speaker 2
-
-- **Darshill**: _Rapid Cross-Platform Refactors with Cursor Agent_
-  - Building http://Linkrunner.io
-  - Founding Team @bluelearn
-
----
-
-# Speaker 3
-
-- **Siddhant Goswami**:
-  - Built & scaled 3 products to $10M+
-  - Building @100xengineers, 2 exits (Tapchief, Scenes)
-  - https://x.com/geeksiddhant
-
----
-
-# Speaker 4
-
-- **Sanjeed**:
-  - Topic: _How I made these slides using Cursor and Background Agent demo_
-  - Applied AI consultant & Cursor Ambassador India
-  - Created [awesome-cursor-rules-mdc](https://github.com/sanjeed5/awesome-cursor-rules-mdc) - 1400+ stars
-  - Worked with Langchain on multi-turn evals in the [openevals repo by Langchain](https://github.com/langchain-ai/openevals?tab=readme-ov-file#acknowledgements)
-  - https://x.com/sanjeed_i · sanjeed.in
-
----
-
-# Speaker 5
-
-- **Rudrag Rudraksh Karpe**: _Setting up cursor rules_
-  - LLM Engineer at ZS Associates
-  - Google Summer of Code Contributor @ openSUSE
-
----
-
-# Special Guest Speaker from Cursor!
-
-**Eric Zakariasson**  
-
-Follow him on X for best Cursor tips! -> (<https://x.com/ericzakariasson>)
-
-_Topic: Q&A with Bangalore Cursor Community_
-
----
-
-# Join the Cursor India Group
-
-<div class="flex items-center justify-center h-full">
-<img src="./assets/cursor_india.png" alt="Cursor India" class="w-96" />
+<div class="mt-4 rounded-lg border border-[#252525] bg-[#171717] p-2">
+  <table class="w-full text-left border-collapse">
+    <thead>
+      <tr class="text-white/70 text-sm uppercase tracking-[0.15em]">
+        <th class="p-3">Time</th>
+        <th class="p-3">Session</th>
+      </tr>
+    </thead>
+    <tbody class="text-white/90">
+      <tr class="border-t border-[#252525]"><td class="p-3">5:00 pm</td><td class="p-3">Arrive, food, networking</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-3">5:15 pm</td><td class="p-3">Welcome</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-3">5:20–5:30 pm</td><td class="p-3">3 quick Cursor tips from speakers</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-3">5:40 pm</td><td class="p-3">Responsible AI Australia segment</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-3">5:50 pm</td><td class="p-3">Sprint briefing</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-3">6:00 pm</td><td class="p-3">Build sprint</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-3">6:50 pm</td><td class="p-3">Lightning demos</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-3">7:00 pm</td><td class="p-3">Wrap</td></tr>
+    </tbody>
+  </table>
 </div>
 
 ---
-
-# Scan to Join
-
-<div class="flex items-center justify-center h-full">
-<img src="./assets/cursor_india_qr.jpeg" alt="QR Code" class="w-64" />
-</div>
-
-_Join our WhatsApp group & stay updated on all things Cursor_
-
+layout: default
+class: bg-[#0F0F0F] text-white
 ---
 
-# Thank You
-Questions? Reach out to me on X!
+# Build sprint focus
 
-- Website: <https://www.sanjeed.in>
-- Twitter: <https://x.com/sanjeed_i>
-- LinkedIn: <https://linkedin.com/in/msanjeed>
+<div class="grid grid-cols-2 gap-5 mt-6">
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-6">
+    <h3 class="text-xl font-semibold mb-3">Sprint goal</h3>
+    <p class="text-white/85 leading-relaxed">
+      Build and demo a small web app from scratch in one guided session.
+    </p>
+  </div>
+  <div class="rounded-lg border border-[#252525] bg-[#171717] p-6">
+    <h3 class="text-xl font-semibold mb-3">Support</h3>
+    <p class="text-white/85 leading-relaxed">
+      Practical guidance during the sprint, with room support across all skill levels.
+    </p>
+  </div>
+</div>
 
-<small>© Cursor Community</small> 
+<div class="mt-5 rounded-lg border border-[#252525] bg-[#171717] p-5 text-white/85">
+  Sponsored by <strong class="text-white">Responsible AI Australia</strong> (safe and responsible use of AI coding tools).
+</div>
+
+---
+layout: center
+class: bg-[#0F0F0F] text-white text-center
+---
+
+<div class="space-y-5">
+  <img src="./cursor-community-avatar.png" alt="Cursor Brisbane" class="mx-auto w-52 rounded-lg border border-[#252525]" />
+  <h2 class="text-4xl font-black tracking-tight">Join the waitlist</h2>
+  <p class="text-white/80">Registration is currently full.</p>
+  <a class="text-white underline decoration-white/40 underline-offset-4 hover:decoration-white" href="https://luma.com/4y41mt4x">
+    luma.com/4y41mt4x
+  </a>
+  <p class="text-sm text-white/60">Cursor Community · Brisbane</p>
+</div>
