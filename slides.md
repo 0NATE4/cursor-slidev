@@ -114,23 +114,23 @@ class: bg-[#0F0F0F] text-white
 
 # Agenda
 
-<div class="mt-4 rounded-lg border border-[#252525] bg-[#171717] p-2">
-  <table class="w-full text-left border-collapse">
+<div class="mt-2 rounded-lg border border-[#252525] bg-[#171717] p-1">
+  <table class="w-full text-left border-collapse text-[0.95rem] leading-tight">
     <thead>
       <tr class="text-white/70 text-sm uppercase tracking-[0.15em]">
-        <th class="p-3">Time</th>
-        <th class="p-3">Session</th>
+        <th class="p-2">Time</th>
+        <th class="p-2">Session</th>
       </tr>
     </thead>
     <tbody class="text-white/90">
-      <tr class="border-t border-[#252525]"><td class="p-3">5:00 pm</td><td class="p-3">Arrive, food, networking</td></tr>
-      <tr class="border-t border-[#252525]"><td class="p-3">5:15 pm</td><td class="p-3">Welcome</td></tr>
-      <tr class="border-t border-[#252525]"><td class="p-3">5:20–5:30 pm</td><td class="p-3">3 quick Cursor tips from speakers</td></tr>
-      <tr class="border-t border-[#252525]"><td class="p-3">5:40 pm</td><td class="p-3">Responsible AI Australia segment</td></tr>
-      <tr class="border-t border-[#252525]"><td class="p-3">5:50 pm</td><td class="p-3">Sprint briefing</td></tr>
-      <tr class="border-t border-[#252525]"><td class="p-3">6:00 pm</td><td class="p-3">Build sprint</td></tr>
-      <tr class="border-t border-[#252525]"><td class="p-3">6:50 pm</td><td class="p-3">Lightning demos</td></tr>
-      <tr class="border-t border-[#252525]"><td class="p-3">7:00 pm</td><td class="p-3">Wrap</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">5:00 pm</td><td class="p-2">Arrive, food, networking</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">5:15 pm</td><td class="p-2">Welcome</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">5:20–5:30 pm</td><td class="p-2">3 quick Cursor tips from speakers</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">5:40 pm</td><td class="p-2">Responsible AI Australia segment</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">5:50 pm</td><td class="p-2">Sprint briefing</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">6:00 pm</td><td class="p-2">Build sprint</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">6:50 pm</td><td class="p-2">Lightning demos</td></tr>
+      <tr class="border-t border-[#252525]"><td class="p-2">7:00 pm</td><td class="p-2">Wrap</td></tr>
     </tbody>
   </table>
 </div>
