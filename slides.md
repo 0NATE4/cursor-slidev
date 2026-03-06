@@ -7,14 +7,8 @@ mdc: true
 theme: slidev-theme-cursor
 layout: cover
 ---
-<div class="h-full flex flex-col items-center justify-center gap-7 text-center">
-  <img src="./cursor-community-avatar.png" alt="Cursor Brisbane" class="w-70 max-w-[360px] rounded-lg border border-[#252525] shadow-[0_8px_24px_rgba(0,0,0,0.6)]" />
-  <div class="space-y-2">
-    <p class="uppercase tracking-[0.25em] text-xs text-white/60">Cursor Community · Live Session</p>
-    <h1 class="text-5xl md:text-7xl font-black leading-tight tracking-tight">Cursor Workshop<br />Brisbane</h1>
-    <p class="text-lg text-white/80">Build sprint run-of-show</p>
-    <p class="text-sm text-white/65">The Precinct · Fortitude Valley, QLD</p>
-  </div>
+<div class="h-full flex items-center justify-center">
+  <img src="./cursor-community-avatar.png" alt="Cursor Community Brisbane" class="w-[460px] max-w-[72vw] rounded-lg border border-[#252525] shadow-[0_8px_24px_rgba(0,0,0,0.6)]" />
 </div>
 
 ---
